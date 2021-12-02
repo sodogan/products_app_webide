@@ -1,0 +1,22 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Dialog id="productDialog" title="{i18n>productDialogTitle}" type="Message" contentWidth="50%">
+		<content>
+			<FlexBox direction="Column">
+				<Title text="{Name}" titleStyle="H3"/>
+				<ObjectStatus icon="sap-icon://favorite" title="{i18n>ratingLabel}" text="{Rating}/5" state="Warning" class="sapUiMediumMarginTop"/>
+				<Label text="{i18n>priceLabel}" class="sapUiSmallMarginTop"/>
+				<Text text="{Price}"/>
+				<Label text="{i18n>releaseDateLabel}" class="sapUiSmallMarginTop"/>
+				<Text text="{path: 'ReleaseDate',  formatter: 'com.sodogan.Products.model.formatter.formatter.formatDate' }"/>
+				<Label text="{i18n>discontinuedDateLabel}" class="sapUiSmallMarginTop"/>
+				<Text
+					text="{path: 'DiscontinuedDate',  formatter: 'com.sodogan.Products.model.formatter.formatter.formatDate' }"/>
+				<Label text="{i18n>description}" class="sapUiSmallMarginTop"/>
+				<TextArea id="textAreaProdDesc" value="{Description}" width="100%" editable="true"/>
+			</FlexBox>
+		</content>
+		<endButton>
+			<Button text="Close" press=".onCloseProductDialog"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

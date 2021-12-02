@@ -1,0 +1,221 @@
+[{
+	"ID": 9,
+	"Name": "Name 1",
+	"Description": "Description 1",
+	"ReleaseDate": "/Date(967805908000)/",
+	"DiscontinuedDate": "/Date(1114253908000)/",
+	"Rating": 416,
+	"Price": 9.85,
+	"__metadata": {
+		"uri": "Products(9)",
+		"type": "ODataDemo.Product"
+	},
+	"Category": {
+		"__deferred": {
+			"uri": "Products(9)/Category"
+		}
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "Products(9)/Supplier"
+		}
+	}
+}, {
+	"ID": 6671,
+	"Name": "Name 2",
+	"Description": "Description 2",
+	"ReleaseDate": "/Date(1264161508000)/",
+	"DiscontinuedDate": "/Date(1509188308000)/",
+	"Rating": 2613,
+	"Price": 416.31,
+	"__metadata": {
+		"uri": "Products(6671)",
+		"type": "ODataDemo.Product"
+	},
+	"Category": {
+		"__deferred": {
+			"uri": "Products(6671)/Category"
+		}
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "Products(6671)/Supplier"
+		}
+	}
+}, {
+	"ID": 7960,
+	"Name": "Name 3",
+	"Description": "Description 3",
+	"ReleaseDate": "/Date(1149159508000)/",
+	"DiscontinuedDate": "/Date(1224673108000)/",
+	"Rating": 2584,
+	"Price": 6671.92,
+	"__metadata": {
+		"uri": "Products(7960)",
+		"type": "ODataDemo.Product"
+	},
+	"Category": {
+		"__deferred": {
+			"uri": "Products(7960)/Category"
+		}
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "Products(7960)/Supplier"
+		}
+	}
+}, {
+	"ID": 5101,
+	"Name": "Name 4",
+	"Description": "Description 4",
+	"ReleaseDate": "/Date(1190113108000)/",
+	"DiscontinuedDate": "/Date(1157713108000)/",
+	"Rating": 7638,
+	"Price": 2613.6,
+	"__metadata": {
+		"uri": "Products(5101)",
+		"type": "ODataDemo.Product"
+	},
+	"Category": {
+		"__deferred": {
+			"uri": "Products(5101)/Category"
+		}
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "Products(5101)/Supplier"
+		}
+	}
+}, {
+	"ID": 100,
+	"Name": "Name 5",
+	"Description": "Description 5",
+	"ReleaseDate": "/Date(1139227108000)/",
+	"DiscontinuedDate": "/Date(1405335508000)/",
+	"Rating": 8688,
+	"Price": 7960.43,
+	"__metadata": {
+		"uri": "Products(100)",
+		"type": "ODataDemo.Product"
+	},
+	"Category": {
+		"__deferred": {
+			"uri": "Products(100)/Category"
+		}
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "Products(100)/Supplier"
+		}
+	}
+}, {
+	"ID": 9523,
+	"Name": "Name 6",
+	"Description": "Description 6",
+	"ReleaseDate": "/Date(1301396308000)/",
+	"DiscontinuedDate": "/Date(1516100308000)/",
+	"Rating": 8078,
+	"Price": 2584.86,
+	"__metadata": {
+		"uri": "Products(9523)",
+		"type": "ODataDemo.Product"
+	},
+	"Category": {
+		"__deferred": {
+			"uri": "Products(9523)/Category"
+		}
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "Products(9523)/Supplier"
+		}
+	}
+}, {
+	"ID": 3324,
+	"Name": "Name 7",
+	"Description": "Description 7",
+	"ReleaseDate": "/Date(1274180308000)/",
+	"DiscontinuedDate": "/Date(990269908000)/",
+	"Rating": 591,
+	"Price": 5101.49,
+	"__metadata": {
+		"uri": "Products(3324)",
+		"type": "ODataDemo.Product"
+	},
+	"Category": {
+		"__deferred": {
+			"uri": "Products(3324)/Category"
+		}
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "Products(3324)/Supplier"
+		}
+	}
+}, {
+	"ID": 4853,
+	"Name": "Name 8",
+	"Description": "Description 8",
+	"ReleaseDate": "/Date(1532343508000)/",
+	"DiscontinuedDate": "/Date(1210157908000)/",
+	"Rating": 4053,
+	"Price": 7638.68,
+	"__metadata": {
+		"uri": "Products(4853)",
+		"type": "ODataDemo.Product"
+	},
+	"Category": {
+		"__deferred": {
+			"uri": "Products(4853)/Category"
+		}
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "Products(4853)/Supplier"
+		}
+	}
+}, {
+	"ID": 7495,
+	"Name": "Name 9",
+	"Description": "Description 9",
+	"ReleaseDate": "/Date(1539946708000)/",
+	"DiscontinuedDate": "/Date(1555498708000)/",
+	"Rating": 7826,
+	"Price": 100.85,
+	"__metadata": {
+		"uri": "Products(7495)",
+		"type": "ODataDemo.Product"
+	},
+	"Category": {
+		"__deferred": {
+			"uri": "Products(7495)/Category"
+		}
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "Products(7495)/Supplier"
+		}
+	}
+}, {
+	"ID": 3812,
+	"Name": "Name 10",
+	"Description": "Description 10",
+	"ReleaseDate": "/Date(1039435108000)/",
+	"DiscontinuedDate": "/Date(1239361108000)/",
+	"Rating": 6152,
+	"Price": 8688.55,
+	"__metadata": {
+		"uri": "Products(3812)",
+		"type": "ODataDemo.Product"
+	},
+	"Category": {
+		"__deferred": {
+			"uri": "Products(3812)/Category"
+		}
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "Products(3812)/Supplier"
+		}
+	}
+}]
